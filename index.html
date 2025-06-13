@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- telwind-css link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <title>Neature Spot</title>
 </head>
 
@@ -16,30 +17,52 @@
     <section class="h-full relative">
 
         <!-- nav section -->
-        <nav class="absolute top-0 bg-[#fff9] px-4 py-2 w-full">
-<!-- left section -->
- <div></div>
- <!-- center section/logo -->
-  <div>
-   <h1 class="font-bold text-3xl text-center text-shadow-2xs text-black">FOREST SPOT</h1>
-  </div>
-  <!-- right section -->
-   <div></div>
+        <nav class="absolute top-0 bg-[#fff9] px-4 py-2 w-full flex justify-between">
+            <!-- left section -->
+            <div class="flex justify-center items-center font-bold text-xl">
+                    
+<ul class="flex gap-5 md:gap-20 lg:gap-30 justify-between">
+    <li class="px-2 py-1 bg-transparent hover:bg-[rgb(0,0,0,0.5)] rounded-xl hover:text-white transition-all duration-700"><a href="#">Home</a></li>
+                    <li class="px-2 py-1 bg-transparent hover:bg-[rgb(0,0,0,0.5)] rounded-xl hover:text-white transition-all duration-700"><a href="#">About Forest</a></li>
+</ul>
+
+            </div>
+            <!-- center section/logo -->
+            <div class="flex justify-center items-center">
+                <h1 class="font-bold text-3xl text-center text-shadow-2xs text-blue-500">FOREST SPOT</h1>
+            </div>
+            <!-- right section -->
+            <div class="flex justify-center items-center font-bold text-xl">
+
+<ul class="flex gap-5 md:gap-20 lg:gap-30 justify-between">
+    <li class="px-2 py-1 bg-transparent hover:bg-[rgb(0,0,0,0.5)] rounded-xl hover:text-white transition-all duration-700"><a href="#">Photos</a></li>
+                    <li class="px-2 py-1 bg-transparent hover:bg-[rgb(0,0,0,0.5)] rounded-xl hover:text-white transition-all duration-700"><a href="#">Wild Life</a></li>
+</ul>
+
+            </div>
 
         </nav>
 
         <!-- home section -->
         <section
-            class="flex flex-col justify-center items-center h-full bg-[url(./asset/bg.png)] bg-no-repeat bg-center bg-cover text-white font-bold text-xl">
-            <h1 class="scroll text-center text-[6rem] font-bold text-gray-100 text-shadow-2xs border-b border-[#fff5] ">Nature
+            class="h-full bg-[url(./asset/bg.png)] bg-no-repeat bg-center bg-cover text-white font-bold text-sm md:text-xl">
+
+            <div class="bg-[rgb(0,0,0,0.5)] h-full flex flex-col justify-center items-center">
+                <h1 class="scroll text-center text-3xl md:text-[6rem] font-bold text-gray-100 text-shadow-2xs border-b border-[#fff5] ">
+                Nature
                 spot</h1>
-            <p class="scroll mt-5 mb-5">Design a serene forest-themed webpage with lush greenery, wildlife elements, natural
+            <p class="text-center mt-5 mb-5">Design a serene forest-themed webpage with lush greenery, wildlife elements,
+                natural
                 textures, soft colors, and calming, eco-friendly visuals.</p>
-                <!-- button section -->
-                 <div class="scroll flex justify-center gap-5 mt-5">
-                    <button type="button" class="px-4 py-2 rounded-xl text-xl border border-white hover:border-transparent transition-all duration-700 bg-transparent hover:bg-[#fff8] hover:text-black">Explore</button>
-                    <button type="button" class="px-4 py-2 rounded-xl text-xl border hover:border-white border-transparent transition-all duration-700 hover:bg-transparent bg-[#fff8] hover:text-white text-black">Feedback</button>
-                 </div>
+            <!-- button section -->
+            <div class="flex justify-center gap-5 mt-5">
+                <button type="button"
+                    class="px-4 py-2 rounded-xl text-xl border border-white hover:border-transparent transition-all duration-700 bg-transparent hover:bg-[#fff8] hover:text-black">Explore</button>
+                <button type="button"
+                    class="px-4 py-2 rounded-xl text-xl border hover:border-white border-transparent transition-all duration-700 hover:bg-transparent bg-[#fff8] hover:text-white text-black">Feedback</button>
+            </div>
+
+            </div>
         </section>
 
 
